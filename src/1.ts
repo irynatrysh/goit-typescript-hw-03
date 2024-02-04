@@ -4,7 +4,7 @@
   напишіть скорочену ініціалізацію.
 */
 
-class Student {
+/*class Student {
   public name: string;
   public age: number;
   public grade: string;
@@ -16,4 +16,11 @@ class Student {
   }
 }
 
-export {};
+export {}; */
+
+class Student {
+  constructor(public name: string, public age: number, public grade: string) { }
+  
+}
+
+export {}
